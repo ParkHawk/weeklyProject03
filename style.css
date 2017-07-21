@@ -1,0 +1,42 @@
+#bigBox{
+  width: 100%;
+}
+
+#topRow{
+  display: flex;
+}
+button{
+  background: green;
+  border: solid;
+  border-width: thin;
+  width: 100px;
+  height: 100px;
+  border-color: lightGrey;
+  margin: -2px;
+  margin-left: -3px;
+  color: white;
+  font-size: 22px;
+}
+
+button:focus{
+  outline:0;
+  background: lightGreen;
+
+}
+button:focus button{
+  transition-delay: .2s;
+}
+
+#display{
+  background-color: Green;
+}
+
+#display{
+  color: white;
+  font-size: 22px;
+  width: 31%;
+  margin-left: 1px;
+  border: lightGrey;
+  border-width: thin;
+  border: solid;
+}
